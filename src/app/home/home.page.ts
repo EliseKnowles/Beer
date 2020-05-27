@@ -18,6 +18,5 @@ export class HomePage {
       nom : 'Sirani Pub',
     });
   }
-  
 }
 
