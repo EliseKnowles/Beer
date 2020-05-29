@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'bar-page',
+    loadChildren: () => import('./bar-page/bar-page.module').then( m => m.BarPagePageModule)
+  },
 ];
 
 @NgModule({

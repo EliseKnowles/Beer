@@ -36,7 +36,7 @@ export class HomePage implements OnInit {
       API_KEY_FOR_BROWSER_RELEASE: 'AIzaSyDvj-kehos36EKwDS2WM7twOkupMS0f6kY', // Clée Google map
       API_KEY_FOR_BROWSER_DEBUG: 'AIzaSyDvj-kehos36EKwDS2WM7twOkupMS0f6kY'
     });
-    this.map = GoogleMaps.create('ƒ', {
+    this.map = GoogleMaps.create('map_canvas', {
       camera: {
         target: {
           lat: 43.610769,
