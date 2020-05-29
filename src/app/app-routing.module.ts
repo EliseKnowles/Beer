@@ -11,9 +11,6 @@ const routes: Routes = [
   {path: '', component: HomePageComponent},
   {path: 'discover', component: DiscoverComponent},
   {path: 'bar-page', component: BarPagePage },
-
-  
-
 ];
 
 @NgModule({
