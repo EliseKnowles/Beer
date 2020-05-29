@@ -1,3 +1,39 @@
-<p>
-  discover works!
-</p>
+<style>
+  :root {
+    --ion-safe-area-top: 20px;
+    --ion-safe-area-bottom: 22px;
+  }
+</style>
+
+<ion-app>
+
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title></ion-title>
+    </ion-toolbar>
+      <ion-toolbar>
+        <ion-title size="large">Découvrir</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+    <ion-list>
+      <ion-list-header>
+        Bières les plus populaires 
+      </ion-list-header>
+    </ion-list>
+
+    <ion-slides class="slide-padding" pager="true">
+      <ion-slide *ngFor="let beer of BeerChoice">
+          <div class="container">
+              <ion-img src="{{beer.picture}}"></ion-img>
+              <h2 class="slidetitle">
+                  <span class="block">{{beer.title}}</span>
+              </h2>
+          </div>
+      </ion-slide>
+  </ion-slides>
+
+  </ion-content>
+
+</ion-app>
