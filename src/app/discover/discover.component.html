@@ -23,16 +23,21 @@
       </ion-list-header>
     </ion-list>
 
-    <ion-slides class="slide-padding" pager="true">
-      <ion-slide *ngFor="let beer of BeerChoice">
-          <div class="container">
-              <ion-img src="{{beer.picture}}"></ion-img>
-              <h2 class="slidetitle">
-                  <span class="block">{{beer.title}}</span>
-              </h2>
-          </div>
+    <ion-slides slidesPerView="2.3" spaceBetween="250" pager="true">
+      <ion-slide *ngFor="let item of beers">
+        <ion-card>
+          <img src="../../assets/img/beer-corona.jpg">
+          <ion-card-content>
+            <ion-card-title></ion-card-title>
+            <h2>Corona</h2>
+          </ion-card-content>
+        </ion-card>
       </ion-slide>
-  </ion-slides>
+      <ion-slide>
+        
+      </ion-slide>
+    </ion-slides>
+
 
   </ion-content>
 
