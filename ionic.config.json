@@ -1,5 +1,7 @@
 {
   "name": "ionic_Beer",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

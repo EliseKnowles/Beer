@@ -1,0 +1,94 @@
+.bar-picture {
+    align-content: center;
+    text-align: center;
+}
+
+.content {
+    margin: 30px;
+}
+
+.bar-picture img {
+  border-radius: 0 0 30px 30px;
+}
+
+.bar-name {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 10vw;
+}
+
+
+.title {
+    font-size: 7vw;
+    margin-bottom: 10px;
+}
+
+.adresse {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.info {
+    display: flex;
+}
+
+.info svg {
+    width: 16px;
+    fill: #FDC553;
+}
+
+.info h1 {
+    font-size: 15px;
+}
+
+.all-beer {
+    display: flex;
+}
+
+.beer-card {
+    border-radius: 5px; 
+    width: 120px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    margin: 20px 0px;
+}
+
+.beer-card img {
+    border-radius: 5px 5px 0 0; 
+}
+
+.beer-name {
+    text-align: left;
+}
+
+
+
+.day {
+   
+    border: 1px solid #FD5353;
+    border-radius: 50%;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    background-color: #FD5353;
+    font-size: 8px;
+    margin:10px 0;
+    
+  }
+
+
+  .happy-hour-date span {
+      color: #FDC553;
+  }
+
+  .beer-name {
+    padding: 2px 16px;
+  }
+
+  .service img {
+    width: 50px;
+  }
