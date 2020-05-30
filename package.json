@@ -27,6 +27,10 @@
     "cordova-browser": "6.0.0",
     "cordova-ios": "5.1.1",
     "cordova-plugin-googlemaps": "^2.7.1",
+<<<<<<< HEAD
+=======
+    "cordova-plugin-googlemaps-sdk": "git+https://github.com/mapsplugin/cordova-plugin-googlemaps-sdk.git",
+>>>>>>> cc1729f97676064f4006e5b07895d16c79ac1311
     "rxjs": "~6.5.1",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
@@ -72,7 +76,12 @@
       "cordova-plugin-ionic-keyboard": {}
     },
     "platforms": [
+<<<<<<< HEAD
       "browser"
+=======
+      "browser",
+      "ios"
+>>>>>>> cc1729f97676064f4006e5b07895d16c79ac1311
     ]
   }
 }
