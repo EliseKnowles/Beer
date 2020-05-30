@@ -4,11 +4,13 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 import { HomePageComponent } from './home-page/home-page.component';
 import { DiscoverComponent } from './discover/discover.component';
 import { ModifBarComponent } from './modif-bar/modif-bar.component';
+import { ResultatsComponent } from './resultats/resultats.component';
 
 const routes: Routes = [
   {path: '', component: HomePageComponent},
   {path: 'discover', component: DiscoverComponent},
   {path: 'modif', component: ModifBarComponent},
+  {path: 'resultats', component: ResultatsComponent},
 ];
 
 @NgModule({
