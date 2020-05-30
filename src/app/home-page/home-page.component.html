@@ -1,18 +1,41 @@
 <ion-app>
   <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title></ion-title>
-    </ion-toolbar>
 
-      <ion-toolbar>
-        <ion-title size="large">Acceuil</ion-title>
-      </ion-toolbar>
-      <ion-toolbar>
-      </ion-toolbar>
     </ion-header>
 
     <ion-content fullscreen="true">
+    
+      
+      <div class="bar-picture">
+        <ion-title>Accueil</ion-title>
+        <img src="../../assets/img/bar3.png" alt=""> 
+      </div>
+      
+    
+     
+
       <ion-searchbar value="Rechercher un bar"></ion-searchbar>
+      <div class="content">
+      <div class="title"> Distance </div>
+      <div class="distance-span">
+      <span class="distance-card-select"> < 1km </span>
+      <span class="distance-card"> 1km - 3km </span>
+      <span class="distance-card"> 3km - 5km </span>
+      <span class="distance-card"> > 5km </span>
+      </div>
+
+      <div class="title"> Biere proposés </div>
+
+      <ion-item>
+        <ion-select value="brown" okText="Okay" cancelText="Dismiss">
+          <ion-select-option value="brown"> Toute</ion-select-option>
+      </ion-select>
+    </ion-item>
+      <div class="title"> Filtres</div>
+
+
+    </div>
+
   </ion-content>
   
 </ion-app>
