@@ -1,0 +1,116 @@
+<ion-app>
+
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button auto-hide="false">
+        <ion-icon name="arrow-back-outline" style="color: black;"></ion-icon>
+      </ion-menu-button>
+    </ion-buttons>
+
+    <ion-title class="toolbar">Modifier un Bar</ion-title>
+  </ion-toolbar>
+
+  <ion-content>
+    <div class="head ion-padding">
+      <h1>Nom du bar</h1>
+      <h3>adresse</h3>
+    </div>
+    <ion-item color="#9DD6E2" >
+      <ion-label>
+        Horaires
+      </ion-label>
+    </ion-item>
+
+    <ion-list>
+      <ion-list-header>Jours d'ouverture</ion-list-header>
+      <ion-item>
+          <ion-chip outline color="warning">
+            <ion-label>L</ion-label>
+          </ion-chip>
+          <ion-chip outline color="warning">
+            <ion-label>Ma</ion-label>
+          </ion-chip>
+          <ion-chip outline color="warning">
+            <ion-label>Me</ion-label>
+          </ion-chip>
+          <ion-chip outline color="warning">
+            <ion-label>J</ion-label>
+          </ion-chip>
+          <ion-chip outline color="warning">
+            <ion-label>V</ion-label>
+          </ion-chip>
+          <ion-chip outline color="warning">
+            <ion-label>S</ion-label>
+          </ion-chip>
+          <ion-chip outline color="warning">
+            <ion-label>D</ion-label>
+          </ion-chip>
+      </ion-item>
+    </ion-list>
+
+    <ion-list>
+      <ion-list-header>Fermeture à</ion-list-header>
+      <ion-item>
+        <ion-datetime  displayFormat="H:mm" minuteValues="0,15,30,45" placeholder="__ h __"></ion-datetime>
+      </ion-item>
+    </ion-list>
+
+    <ion-list>
+      <ion-list-header>Happy Hour</ion-list-header>
+      <ion-item>
+        <p> de </p>
+        <ion-datetime displayFormat="H:mm" minuteValues="0,15,30,45" placeholder="__ h __"></ion-datetime>
+        <p> à  </p>
+        <ion-datetime displayFormat="H:mm" minuteValues="0,15,30,45" placeholder="__ h __"></ion-datetime>
+      </ion-item>
+    </ion-list>
+
+    <ion-item color="#9DD6E2" >
+      <ion-label>
+        Boissons
+      </ion-label>
+    </ion-item>
+    <ion-list>
+      <ion-item>
+        <ion-label>
+          <ion-icon name="add-outline" style="color: #3C3C4399;"></ion-icon>
+          Ajouter</ion-label>
+        <ion-select multiple="true" cancelText="Nah" okText="Okay!">
+          <ion-select-option value="corona">Corona</ion-select-option>
+          <ion-select-option value="heineken">Heineken</ion-select-option>
+          <ion-select-option value="kwak">Kwak</ion-select-option>
+          <ion-select-option value="bud">Budweiss</ion-select-option>
+          <ion-select-option value="desperados">Desperados</ion-select-option>
+          <ion-select-option value="chouffe">La Chouffe</ion-select-option>
+          <ion-select-option value="mort">Mort Subite</ion-select-option>
+          <ion-select-option value="ipa">Ipa</ion-select-option>
+          <ion-select-option value="paillette">Paillette</ion-select-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+
+    <ion-item color="#9DD6E2" >
+      <ion-label>
+        Caractéristiques
+      </ion-label>
+    </ion-item>
+    <ion-list>
+      <ion-item>
+        <ion-label><ion-icon name="add-outline" style="color: #3C3C4399;"></ion-icon>Ajouter</ion-label>
+        <ion-select multiple="true" cancelText="Nah" okText="Okay!">
+          <ion-select-option value="terasse">Terasse</ion-select-option>
+          <ion-select-option value="wifi">Wifi Gratuit</ion-select-option>
+          <ion-select-option value="book">Réservation</ion-select-option>
+          <ion-select-option value="musique">Musique</ion-select-option>
+          <ion-select-option value="jeux">Billard, Baby-foot, fléchette ...</ion-select-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+
+    <ion-button class="ion-margin" expand="block" color="#9DD6E2">Enregistrer</ion-button>
+
+    
+
+  </ion-content>
+
+</ion-app>
