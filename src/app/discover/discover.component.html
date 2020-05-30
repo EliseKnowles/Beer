@@ -17,22 +17,78 @@
   </ion-header>
 
   <ion-content>
+
     <ion-list>
       <ion-list-header>
         Bières les plus populaires 
       </ion-list-header>
     </ion-list>
+    <div>
+      <ion-slides>
+        <ion-slide class="slide">
+          <ion-card class="card">
+            <img src="../../assets/img/beer-corona.jpg">
+            <ion-card-title>Corona</ion-card-title>
+          </ion-card>
+        </ion-slide>
+        <ion-slide class="slide">
+          <ion-card class="card">
+            <img src="../../assets/img/beer-bud.jpg">
+            <ion-card-title>Budweiss</ion-card-title>
+          </ion-card>
+        </ion-slide>
+        <ion-slide class="slide">
+          <ion-card class="card">
+            <img src="../../assets/img/beer-heineken.jpg">
+            <ion-card-title>Heineken</ion-card-title>
+          </ion-card>
+        </ion-slide>
+      </ion-slides>
+    </div>
 
-    <ion-slides class="slide-padding" pager="true">
-      <ion-slide *ngFor="let beer of BeerChoice">
-          <div class="container">
-              <ion-img src="{{beer.picture}}"></ion-img>
-              <h2 class="slidetitle">
-                  <span class="block">{{beer.title}}</span>
-              </h2>
-          </div>
-      </ion-slide>
-  </ion-slides>
+    <ion-list>
+      <ion-list-header>
+        Bars Tendances
+      </ion-list-header>
+    </ion-list>
+    <div>
+      <ion-slides>
+        <ion-slide class="slide-bar">
+          <ion-card class="card-bar">
+            <img src="../../assets/img/bar6.jpg">
+            <ion-card-title>J'Club</ion-card-title>
+          </ion-card>
+        </ion-slide>
+        <ion-slide class="slide-bar">
+          <ion-card class="card-bar">
+            <img src="../../assets/img/téléchargement-29.jpg">
+            <ion-card-title>Marini Pub</ion-card-title>
+          </ion-card>
+        </ion-slide>
+      </ion-slides>
+    </div>
+  
+    <ion-list>
+      <ion-list-header>
+        Bars Insolites
+      </ion-list-header>
+    </ion-list>
+    <div>
+      <ion-slides>
+        <ion-slide class="slide-bar">
+          <ion-card class="card-bar">
+            <img src="../../assets/img/bar5.jpg">
+            <ion-card-title>Le Marilyn</ion-card-title>
+          </ion-card>
+        </ion-slide>
+        <ion-slide class="slide-bar">
+          <ion-card class="card-bar">
+            <img src="../../assets/img/bar4.jpg">
+            <ion-card-title>The 46 Bar </ion-card-title>
+          </ion-card>
+        </ion-slide>
+      </ion-slides>
+    </div>
 
   </ion-content>
 
