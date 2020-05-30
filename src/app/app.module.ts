@@ -10,9 +10,10 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomePageComponent } from './home-page/home-page.component';
 import { DiscoverComponent } from './discover/discover.component';
+import { MapComponent } from './map/map.component';
 
 @NgModule({
-  declarations: [AppComponent, HomePageComponent, DiscoverComponent],
+  declarations: [AppComponent, HomePageComponent, DiscoverComponent, MapComponent],
   entryComponents: [],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
   providers: [
