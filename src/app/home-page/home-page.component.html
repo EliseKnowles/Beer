@@ -16,6 +16,7 @@
 
       <ion-searchbar value="Rechercher un bar"></ion-searchbar>
       <div class="content">
+
       <div class="title"> Distance </div>
       <div class="distance-span">
       <span class="distance-card-select"> 1km </span>
@@ -24,22 +25,47 @@
       <span class="distance-card"> > 5km </span>
       </div>
 
-      <div class="title"> Biere proposés </div>
+      <div class="title-deux"> Biere proposés </div>
 
       <ion-item>
-        <ion-select value="brown" okText="Okay" cancelText="Dismiss">
-          <ion-select-option value="brown"> Toute</ion-select-option>
-      </ion-select>
-    </ion-item>
-      <div class="title"> Filtres</div>
+        <ion-select value="toutes" okText="Okay" cancelText="Dismiss">
+          <ion-select-option value="toutes"> Toutes</ion-select-option>
+          <ion-select-option value="corona">Corona</ion-select-option>
+          <ion-select-option value="heineken">Heineken</ion-select-option>
+          <ion-select-option value="kwak">Kwak</ion-select-option>
+          <ion-select-option value="bud">Budweiss</ion-select-option>
+          <ion-select-option value="desperados">Desperados</ion-select-option>
+          <ion-select-option value="chouffe">La Chouffe</ion-select-option>
+          <ion-select-option value="mort">Mort Subite</ion-select-option>
+          <ion-select-option value="ipa">Ipa</ion-select-option>
+          <ion-select-option value="paillette">Paillette</ion-select-option>
 
+      </ion-select>
+      </ion-item>
+
+
+      <div class="title-deux"> Filtres</div>
+      <div class="toggle-class">
+      <p>Terrase </p>
+      <ion-toggle checked class="switcher"></ion-toggle>
+      </div>
+      <div class="toggle-class">
+      <p>Wifi gratuit </p>
+      <ion-toggle checked class="switcher"> </ion-toggle>
+    </div>
+    <div class="toggle-class">
+      <p>Revervation</p>
+      <ion-toggle checked class="switcher"> </ion-toggle>
+    </div>
+    <div class="toggle-class">
+      <p>Musique </p>
+      <ion-toggle checked class="switcher"> </ion-toggle>
+    </div>
 
     </div>
 
-  </ion-content>
+    <ion-button class="ion-margin" expand="block" color="#9DD6E2" href="http://localhost:8100/resultats">Rechercher</ion-button>
 
-  <ion-content>
-    <ion-title size="large">Settings</ion-title>
   </ion-content>
   
 </ion-app>
