@@ -12,6 +12,10 @@
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+.switcher {
+    float: right;
+}
+
 ion-title {
   position: absolute;
   top: 8%;
@@ -25,6 +29,15 @@ ion-searchbar {
     margin: 20px 0 !important;
 }
 
+.toggle-class {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.toggle-class p {
+ transform: translateY(-2px);
+}
 
 .distance-span span {
     border-radius: 5px; 

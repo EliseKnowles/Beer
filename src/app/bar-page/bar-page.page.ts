@@ -5,11 +5,19 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './bar-page.page.html',
   styleUrls: ['./bar-page.page.scss'],
 })
+
 export class BarPagePage implements OnInit {
 
-  constructor() { }
+  BeerChoice : any;
 
-  ngOnInit() {
-  }
+  constructor() {
+
+    this.BeerChoice = [
+      {title: "Corona", picture: "../../assets/img/beer-corona"},
+      {title: "Budweiss", picture: "https://source.unsplash.com/90"},
+    ]
+   }
+
+  ngOnInit() {}
 
 }

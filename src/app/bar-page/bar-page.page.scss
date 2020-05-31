@@ -67,6 +67,24 @@
 
 .day {
    
+    // border: 1px solid #FD5353;
+    border: 1px solid rgb(137, 229, 88);
+    border-radius: 50%;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(214, 255, 190);
+    font-size: 8px;
+    margin:10px 0;
+    color:  rgb(137, 229, 88);
+    
+  }
+
+  .day2 {
+   
+    
     border: 1px solid #FD5353;
     border-radius: 50%;
     display: inline-block;
@@ -74,12 +92,17 @@
     height: 40px;
     text-align: center;
     padding: 10px;
-    background-color: #FD5353;
+    background-color: rgb(255, 203, 203);
     font-size: 8px;
     margin:10px 0;
+    color:   #FD5353;
     
   }
 
+  .semaine {
+      display: flex;
+      justify-content: space-between;
+  }
 
   .happy-hour-date span {
       color: #FDC553;
@@ -92,3 +115,8 @@
   .service img {
     width: 50px;
   }
+
+//   .service  {
+//       display:  flex;
+//       justify-content: space-between;
+//   }
